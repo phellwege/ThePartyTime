@@ -2,7 +2,8 @@ import React, {useState} from 'react';
 import { Router } from '@reach/router';
 import { ThemeProvider } from 'styled-components';
 import Main from './views/Main';
-import Rules from './views/Rules'
+import Rules from './views/Rules';
+import TaC from './views/TaC';
 import './App.css';
 
 
@@ -15,6 +16,7 @@ function App() {
           <Router>
             <Main path="/"/>
             <Rules path="/Rules"/>
+            <Tac path="/TaC"/>
           </Router>
       </React.Fragment>
     </div>

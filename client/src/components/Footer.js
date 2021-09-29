@@ -9,15 +9,18 @@ const Footer = () => {
                     <a href={"#Home"}>Home</a>
                     <a href ="#Stuff">Stuff</a>
                     <a href="#Stuff">Stuff</a>
-                    <a href="#Stuff">Stuff</a>
+                    <Link to="/Rules">Rules</Link>
                 </div>
                 <div id="footer_links">
                     <a href="https://github.com/">
                         Git
                     </a>
-                    <a href="https://">
-                        Another link
-                    </a>
+                    <Link to="/Disclosures">
+                        Disclosures
+                    </Link>
+                    <Link to="/TaC">
+                        Terms and Conditions
+                    </Link>
                 </div>
         </footer>
         </>

@@ -15,6 +15,16 @@ const GlobalStyle = createGlobalStyle`
     transition: ${props => 
         props.theme.mode === 'dark' ? 'all 0.3s ease-in-out': 'all 0.5s ease-in-out'};
     }
+    #footer_links a {
+        color: ${props => 
+            props.theme.mode === 'dark' ? '#b1b1b3' : '#111' };
+    }
+    .Selector {
+        text-shadow: ${props => 
+            props.theme.mode === 'dark' ? '0 0 15px #ff9800' : 'none' };
+        color: ${props => 
+            props.theme.mode === 'dark' ? '#ff9800' : 'none' };
+    }
 
     };
 `
