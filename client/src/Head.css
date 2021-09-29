@@ -1,0 +1,15 @@
+#headspace {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5%;
+    align-content: center;
+    height: 100px;
+    width: 95%;
+    align-items: center;
+    position: fixed;
+}
+#Logo {
+    height: 125px;
+    border-radius: .25em;
+    margin: 25% 0 0 32.5%;
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#background {
+    display: flex;
+    flex-direction: column;
+}
+#foot_wrap {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 90%;
+    bottom: 0;
+    margin: 10px;
+}
+#footer_links {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
