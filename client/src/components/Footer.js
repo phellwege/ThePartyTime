@@ -12,12 +12,9 @@ const Footer = () => {
                     <Link to="/Rules">Rules</Link>
                 </div>
                 <div id="footer_links">
-                    <a href="https://github.com/">
+                    <a href="https://github.com/phellwege/ThePartyTime">
                         Git
                     </a>
-                    <Link to="/Disclosures">
-                        Disclosures
-                    </Link>
                     <Link to="/TaC">
                         Terms and Conditions
                     </Link>

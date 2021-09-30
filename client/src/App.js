@@ -5,6 +5,8 @@ import Main from './views/Main';
 import Rules from './views/Rules';
 import TaC from './views/TaC';
 import './App.css';
+import MovieTheatre from './views/MovieTheatre';
+import MusicVenue from './views/MusicVenue';
 
 
 function App() {
@@ -16,7 +18,9 @@ function App() {
           <Router>
             <Main path="/"/>
             <Rules path="/Rules"/>
-            <Tac path="/TaC"/>
+            <TaC path="/TaC"/>
+            <MovieTheatre path="/MovieTheatre"/>
+            <MusicVenue path="/MusicVenue"/>
           </Router>
       </React.Fragment>
     </div>

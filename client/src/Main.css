@@ -37,7 +37,14 @@
     display: flex;
     justify-content: space-evenly;
     margin: 15px;
+    cursor: pointer;
 }
 .Selector img {
     height: 50px;
+}
+.AlienBro {
+    width: 10%;
+    height: 10%;
+    margin: -10% 0 0 15%;
+    cursor: pointer;
 }
