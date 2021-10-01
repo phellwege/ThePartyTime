@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { ThemeProvider, createGlobalStyle } from 'styled-components';
+import Logo4 from '../static/Logo4.png';
 import Toggle from '../Toggle/DayNight_Mode';
 import '../Head.css';
 
@@ -90,8 +91,10 @@ const Head = () => {
         <ThemeProvider theme={theme}>
         <GlobalStyle />
         <div id='headspace'>
-            <div>
-                <h1>icon</h1>
+            <div id="Logo">
+                <a href="/">
+                    <img src={Logo4} alt="Logo4" id="LogoImg"/>
+                </a>
             </div>
             <div>
                 <h1>Party Time</h1>
