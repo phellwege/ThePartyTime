@@ -50,7 +50,7 @@ const GlobalStyle = createGlobalStyle`
     }
     #navigation li a.active {
         box-shadow: ${props =>
-            props.theme.mode === 'dark' ? '0 4px 2px -2px #ff9800' : 'none'};
+            props.theme.mode === 'dark' ? '0 2.5px #ff9800' : 'none'};
     }
     #scrolling_text {
         background-color: ${props =>
@@ -75,6 +75,14 @@ const GlobalStyle = createGlobalStyle`
     #Screen {
     box-shadow: ${props => 
         props.theme.mode === 'dark' ? '0 0 25px white' : 'none'};
+    }
+    #LogoImg {
+        box-shadow: ${props => 
+            props.theme.mode === 'dark' ? '0 0 25px #38a9ad' : 'none'};
+    }
+    #MovieBoard {
+        box-shadow: ${props => 
+            props.theme.mode === 'dark' ? '0 0 25px white' : 'none'};
     }
     };
 `

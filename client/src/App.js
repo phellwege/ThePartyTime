@@ -5,7 +5,13 @@ import Main from './views/Main';
 import Rules from './views/Rules';
 import TaC from './views/TaC';
 import './App.css';
-import MovieTheatre from './views/MovieTheatre';
+import Movie1 from './views/Movie1';
+import Movie2 from './views/Movie2';
+import Movie3 from './views/Movie3';
+import Movie4 from './views/Movie4';
+import Movie5 from './views/Movie5';
+import Movie6 from './views/Movie6';
+import MovieLobby from './views/MovieLobby';
 import MusicVenue from './views/MusicVenue';
 
 
@@ -19,7 +25,13 @@ function App() {
             <Main path="/"/>
             <Rules path="/Rules"/>
             <TaC path="/TaC"/>
-            <MovieTheatre path="/MovieTheatre"/>
+            <MovieLobby path="/MovieTheatre"/>
+            <Movie1 path="/Movie1"/>
+            <Movie2 path="/Movie2"/>
+            <Movie3 path="/Movie3"/>
+            <Movie4 path="/Movie4"/>
+            <Movie5 path="/Movie5"/>
+            <Movie6 path="/Movie6"/>
             <MusicVenue path="/MusicVenue"/>
           </Router>
       </React.Fragment>

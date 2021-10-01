@@ -114,3 +114,23 @@
 .ExitSign {
     text-decoration: none;
 }
+#MovieBoard {
+    width: 35%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10% 0 0 15%;
+    z-index: 444;
+}
+#MovieBoard {
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+#MovieBoard th, td {
+    border: 1px solid black;
+    width: 30%;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
