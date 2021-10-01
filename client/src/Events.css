@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+#navigation {
+    width: 20%;
+    background-color: #EAF2F8;
+    margin-top: -35%;
+    margin-left:2.5%;
+    padding: 0;
+    position: fixed;
+    height: 30%;
+    font-size: 125%;
+    overflow: auto;
+    border-radius: 1em;
+    opacity: 85%;
+}
+#navigation ul {
+    list-style-type: none;
+}
+#navigation li a {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif; 
+    /* font-family: 'Allerta Stencil', sans-serif; */
+}
+#navigation li a.active {
+    background-color: #44566b;
+    color: white;
+}
+.resume_button {
+    border-radius: 1em;
+}

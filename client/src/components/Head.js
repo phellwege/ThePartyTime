@@ -25,11 +25,56 @@ const GlobalStyle = createGlobalStyle`
         color: ${props => 
             props.theme.mode === 'dark' ? '#ff9800' : 'none' };
     }
+    .Selector a {
+        text-shadow: ${props => 
+            props.theme.mode === 'dark' ? '0 0 15px #ff9800' : 'none' };
+        color: ${props => 
+            props.theme.mode === 'dark' ? '#ff9800' : 'black' };
+    }
     #Controller-interface {
         border: ${props => 
             props.theme.mode === 'dark' ? '1px solid #ff9800' : '1px solid black;' };
     }
-    
+    #navigation li a:hover:not(.active) {
+        background-color: ${props =>
+            props.theme.mode === 'dark' ? '#56f981' : '#5499C7'};
+        color: ${props =>
+            props.theme.mode === 'dark' ? 'rgb(255, 55, 55)' : 'white'};
+        border: ${props =>
+            props.theme.mode === 'dark' ? '1px solid darkgreen' : '1px solid black'};
+    }
+    #navigation {
+        box-shadow: ${props =>
+            props.theme.mode === 'dark' ? '0 0 15px #ff9800' : '0 0 8px rgba(33,33,33,1)'};
+    }
+    #navigation li a.active {
+        box-shadow: ${props =>
+            props.theme.mode === 'dark' ? '0 4px 2px -2px #ff9800' : 'none'};
+    }
+    #scrolling_text {
+        background-color: ${props =>
+            props.theme.mode === 'dark' ? 'darkgray' : '#2a2a2e'};
+        color: ${props =>
+            props.theme.mode === 'dark' ? 'white' : '#b1b1b3'};
+    }
+    .ExitSign {
+        color: ${props =>
+            props.theme.mode === 'dark' ? '#56f981' : 'rgba(33,33,33,1)'};
+        text-shadow: ${props => 
+            props.theme.mode === 'dark' ? '0 0 15px #56f981' : 'none'};
+    }
+    #LeftExit {
+        box-shadow: ${props => 
+            props.theme.mode === 'dark' ? '0 0 15px #56f981' : 'none'};
+    }
+    #RightExit {
+        box-shadow: ${props => 
+            props.theme.mode === 'dark' ? '0 0 15px #56f981' : 'none'};
+    }
+    #Screen {
+    box-shadow: ${props => 
+        props.theme.mode === 'dark' ? '0 0 25px white' : 'none'};
+    }
     };
 `
 

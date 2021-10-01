@@ -46,6 +46,71 @@
 .AlienBro {
     width: 10%;
     height: 10%;
-    margin: -10% 0 0 15%;
+    margin: -10% 0 0 40%;
     cursor: pointer;
+}
+.OnStage {
+    margin: -20% 0 0 34%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.OnStage img {
+    height: 200%;
+    width:200%;
+    overflow: hidden;
+}
+#music_selector {
+    padding-bottom: 30px;
+    opacity: 85%;
+}
+#scrolling_text {
+    background-color: black;
+    width: 250%;
+}
+#Screen {
+    border: 1px solid black;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10% 0 0 15%;
+    justify-content: space-between;
+    align-items: center;
+}
+#crowd {
+    width: 100%;
+    margin: -11% 0 0 0;
+}
+#crowd img {
+    width: 100%;
+}
+#exit_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+#LeftExit {
+    background-color: lightgrey;
+    padding: 5px;
+    border-radius: 15%;
+    width: 5%;
+    margin-left: 5%;
+    border: 1px solid black;
+    z-index: 444;
+}
+#RightExit {
+    background-color: lightgrey;
+    padding: 5px;
+    border-radius: 15%;
+    width: 5%;
+    margin-right: 5%;
+    border: 1px solid black;
+    z-index: 444;
+}
+.ExitSign {
+    text-decoration: none;
 }

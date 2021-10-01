@@ -6,7 +6,7 @@ const Footer = () => {
         <>
         <footer id="foot_wrap">
                 <div id="footer_links">
-                    <a href={"#Home"}>Home</a>
+                    <Link to="/">Home</Link>
                     <a href ="#Stuff">Stuff</a>
                     <a href="#Stuff">Stuff</a>
                     <Link to="/Rules">Rules</Link>
