@@ -25,7 +25,11 @@ const GlobalStyle = createGlobalStyle`
         color: ${props => 
             props.theme.mode === 'dark' ? '#ff9800' : 'none' };
     }
-
+    #Controller-interface {
+        border: ${props => 
+            props.theme.mode === 'dark' ? '1px solid #ff9800' : '1px solid black;' };
+    }
+    
     };
 `
 
