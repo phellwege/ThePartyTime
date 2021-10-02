@@ -34,7 +34,11 @@ const GlobalStyle = createGlobalStyle`
     }
     #Controller-interface {
         border: ${props => 
-            props.theme.mode === 'dark' ? '1px solid #ff9800' : '1px solid black;' };
+            props.theme.mode === 'dark' ? '3px solid #ff9800' : '3px solid black;' };
+        background-color: ${props =>
+            props.theme.mode === 'dark' ? 'rgb(54, 54, 54)' : 'darkgray'};
+        box-shadow: ${props => 
+            props.theme.mode === 'dark' ? '0 0 25px #ff9800' : 'none'};
     }
     #navigation {
         box-shadow: ${props =>
@@ -87,6 +91,10 @@ const GlobalStyle = createGlobalStyle`
     #Controller-interface2 {
         background-color: ${props =>
             props.theme.mode === 'dark' ? 'rgb(54, 54, 54)' : 'darkgray'};
+        box-shadow: ${props => 
+            props.theme.mode === 'dark' ? '0 0 25px #ff9800' : 'none'};
+        border: ${props => 
+            props.theme.mode === 'dark' ? '3px solid #ff9800' : '3px solid black;' };
     }
 
     };

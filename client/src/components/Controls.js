@@ -27,7 +27,7 @@ const Controls = () => {
     return (
         <>
             <div id="Controller-interface">
-                <h4>Controls</h4>
+                <h6>Controls</h6>
                 <div class="Selector">
                     <h1>Select</h1>
                 </div>

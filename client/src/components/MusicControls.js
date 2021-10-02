@@ -5,7 +5,7 @@ const MusicControls = () => {
     return (
         <>
         <div id="Controller-interface2">
-                <h4>Controls</h4>
+                <h6>Controls</h6>
                 <div class="Selector">
                     <h2><a href="/">Leave</a></h2>
                     
