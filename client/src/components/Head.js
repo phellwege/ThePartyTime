@@ -52,7 +52,7 @@ const GlobalStyle = createGlobalStyle`
         background-color: ${props =>
             props.theme.mode === 'dark' ? 'darkgray' : '#2a2a2e'};
         color: ${props =>
-            props.theme.mode === 'dark' ? 'white' : '#b1b1b3'};
+            props.theme.mode === 'dark' ? '#2a2a2e' : '#b1b1b3'};
     }
     .ExitSign {
         color: ${props =>

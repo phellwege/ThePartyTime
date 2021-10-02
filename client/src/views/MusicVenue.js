@@ -11,7 +11,7 @@ const MusicVenue = () => {
         <Head/>
         <div class="OnStage">
             <div id="scrolling_text">
-                <h4>This is text</h4>
+                <h4>Artist</h4>
             </div>
             <img src={DJ} alt="Music Dj Gif"/>
             

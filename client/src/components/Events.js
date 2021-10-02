@@ -1,7 +1,7 @@
 import "../Events.css";
 import {Link} from '@reach/router';
 
-const NavBar = () => {
+const Events = () => {
     return (
         <>
         <div>
@@ -9,10 +9,11 @@ const NavBar = () => {
     <li><Link class="active" to="/">Home</Link></li>
     <li><Link to="/MusicVenue">Music Venue</Link></li>
     <li><Link to="/MovieTheatre">Movie Theatre</Link></li>
-    <li><a href="#Contact">Contact</a></li>
+    <li><Link to="/Paint">Paint</Link></li>
+    <li><Link to="/Asteroids">Asteroids</Link></li>
 </ul>
 </div>
         </>
     )
 }
-export default NavBar;
+export default Events;

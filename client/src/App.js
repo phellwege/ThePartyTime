@@ -11,6 +11,8 @@ import Movie3 from './views/Movie3';
 import Movie4 from './views/Movie4';
 import Movie5 from './views/Movie5';
 import Movie6 from './views/Movie6';
+import Paint from './views/Paint';
+import Asteroids from './views/Asteroids';
 import MovieLobby from './views/MovieLobby';
 import MusicVenue from './views/MusicVenue';
 
@@ -32,6 +34,8 @@ function App() {
             <Movie4 path="/Movie4"/>
             <Movie5 path="/Movie5"/>
             <Movie6 path="/Movie6"/>
+            <Paint path="/Paint"/>
+            <Asteroids path="/Asteroids"/>
             <MusicVenue path="/MusicVenue"/>
           </Router>
       </React.Fragment>
