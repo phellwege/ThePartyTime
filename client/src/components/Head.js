@@ -84,6 +84,10 @@ const GlobalStyle = createGlobalStyle`
         text-shadow: ${props => 
                 props.theme.mode === 'dark' ? '0 0 5px white' : 'none'};
     }
+    #Controller-interface2 {
+        background-color: ${props =>
+            props.theme.mode === 'dark' ? 'rgb(54, 54, 54)' : 'darkgray'};
+    }
 
     };
 `

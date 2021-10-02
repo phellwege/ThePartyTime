@@ -34,6 +34,16 @@
     margin: 35% 0 0 65%;
     border-radius: 20%;
 }
+#Controller-interface2{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 25%;
+    margin: 35% 0 0 65%;
+    border-radius: 20%;
+    border: 3px solid black;
+}
 .Selector {
     display: flex;
     justify-content: space-evenly;
@@ -50,7 +60,7 @@
     cursor: pointer;
 }
 .OnStage {
-    margin: -20% 0 0 34%;
+    margin: -20% 0 0 25%;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -151,4 +161,11 @@
 }
 #octo_pop {
     margin: 0% 0 0 65%;
+}
+#Loud_Crowd {
+    width:100%;
+    bottom:0;
+    margin: -25% 0 0 0%;
+    z-index: -1;
+    position: relative;
 }

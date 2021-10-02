@@ -4,7 +4,7 @@ import "../Main.css";
 const MusicControls = () => {
     return (
         <>
-        <div id="Controller-interface">
+        <div id="Controller-interface2">
                 <h4>Controls</h4>
                 <div class="Selector">
                     <h2><a href="/">Leave</a></h2>
