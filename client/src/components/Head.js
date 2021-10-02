@@ -1,20 +1,28 @@
 import React, { useEffect, useState } from 'react';
 import { ThemeProvider, createGlobalStyle } from 'styled-components';
 import Logo4 from '../static/Logo4.png';
+import NightBkg from '../static/NightBkg.jpg';
+import DayBkg from '../static/DayBkg.jpg';
 import Toggle from '../Toggle/DayNight_Mode';
 import '../Head.css';
 
-// the first set is dark mode the second is light mode
+// the first set is dark mode, the second is light mode
 // dark contrast color b1b1b3
 // light contrast color #111
 const GlobalStyle = createGlobalStyle`
     body {
         background-color: ${props => 
             props.theme.mode === 'dark' ? '#2a2a2e' : '#eeeeee'};
-    color: ${props => 
-        props.theme.mode === 'dark' ? '#b1b1b3' : '#111' };
-    transition: ${props => 
-        props.theme.mode === 'dark' ? 'all 0.3s ease-in-out': 'all 0.5s ease-in-out'};
+        color: ${props => 
+            props.theme.mode === 'dark' ? '#b1b1b3' : '#111' };
+        transition: ${props => 
+            props.theme.mode === 'dark' ? 'all 0.3s ease-in-out': 'all 0.5s ease-in-out'};
+    }
+    #background {
+        background-image: ${props => 
+            props.theme.mode === 'dark' ? `url(${NightBkg})` : `url(${DayBkg})`};
+        transition: ${props => 
+            props.theme.mode === 'dark' ? 'all 1.5s ease-in-out': 'all 1.5s ease-in-out'};
     }
     #footer_links a {
         color: ${props => 
