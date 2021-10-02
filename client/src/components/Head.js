@@ -36,21 +36,13 @@ const GlobalStyle = createGlobalStyle`
         border: ${props => 
             props.theme.mode === 'dark' ? '1px solid #ff9800' : '1px solid black;' };
     }
-    #navigation li a:hover:not(.active) {
-        background-color: ${props =>
-            props.theme.mode === 'dark' ? '#56f981' : '#5499C7'};
-        color: ${props =>
-            props.theme.mode === 'dark' ? 'rgb(255, 55, 55)' : 'white'};
-        border: ${props =>
-            props.theme.mode === 'dark' ? '1px solid darkgreen' : '1px solid black'};
-    }
     #navigation {
         box-shadow: ${props =>
-            props.theme.mode === 'dark' ? '0 0 15px #ff9800' : '0 0 8px rgba(33,33,33,1)'};
+            props.theme.mode === 'dark' ? '0 0 15px #38a9ad' : '0 0 8px rgba(33,33,33,1)'};
     }
     #navigation li a.active {
         box-shadow: ${props =>
-            props.theme.mode === 'dark' ? '0 2.5px #ff9800' : 'none'};
+            props.theme.mode === 'dark' ? '0 2.5px #38a9ad' : 'none'};
     }
     #scrolling_text {
         background-color: ${props =>
@@ -73,8 +65,8 @@ const GlobalStyle = createGlobalStyle`
             props.theme.mode === 'dark' ? '0 0 15px #56f981' : 'none'};
     }
     #Screen {
-    box-shadow: ${props => 
-        props.theme.mode === 'dark' ? '0 0 25px white' : 'none'};
+        box-shadow: ${props => 
+            props.theme.mode === 'dark' ? '0 0 25px white' : 'none'};
     }
     #LogoImg {
         box-shadow: ${props => 
@@ -83,7 +75,16 @@ const GlobalStyle = createGlobalStyle`
     #MovieBoard {
         box-shadow: ${props => 
             props.theme.mode === 'dark' ? '0 0 25px white' : 'none'};
+        color: ${props =>
+            props.theme.mode === 'dark' ? '#3F51B5' : '#6D4C41'};
     }
+    #MovieBoard a {
+        color: ${props =>
+            props.theme.mode === 'dark' ? 'black' : 'rgba(33,33,33,1)'};
+        text-shadow: ${props => 
+                props.theme.mode === 'dark' ? '0 0 5px white' : 'none'};
+    }
+
     };
 `
 

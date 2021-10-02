@@ -1,6 +1,7 @@
 import "../Main.css";
 import Head from '../components/Head';
-
+import Octo_pop from '../static/octo_pop.gif';
+import Kiosk from '../static/Kiosk.gif';
 
 const MovieTheatre = () => {
     return (
@@ -48,8 +49,13 @@ const MovieTheatre = () => {
                             </a>
                         </td>
                     </tr>
-                        
             </table>
+        </div>
+        <div id="octo_pop">
+            <img src={Octo_pop} alt="octo_pop"/>
+        </div>
+        <div id="robo_kiosk">
+            <img src={Kiosk} alt="robo_kiosk" id="robo_kiosk"/>
         </div>
         </>
     )

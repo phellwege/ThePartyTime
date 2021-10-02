@@ -24,8 +24,8 @@ const Rules = () => {
                 <td>Music</td>
             </tr>
             <tr>
-                <td>Day event</td>
-                <td>Movie</td>
+                <td>Asteroids</td>
+                <td>Movies</td>
             </tr>
             <tr>
                 <td>Day event</td>

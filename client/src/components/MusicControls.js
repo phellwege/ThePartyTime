@@ -7,7 +7,7 @@ const MusicControls = () => {
         <div id="Controller-interface">
                 <h4>Controls</h4>
                 <div class="Selector">
-                    <h3><a href="/">Leave the Party</a></h3>
+                    <h2><a href="/">Leave</a></h2>
                     
                 </div>
                 <div class="Selector" id="music_selector">

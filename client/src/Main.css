@@ -122,15 +122,33 @@
     justify-content: space-between;
     margin: 10% 0 0 15%;
     z-index: 444;
+    font: 2em;
 }
 #MovieBoard {
-    background-color: lightgrey;
-    border: 1px solid black;
+    background-color: rgb(226, 226, 226);
+    border: 3px solid black;
+}
+#MovieBoard a {
+    text-decoration: none;
+}
+#MovieBoard a:hover {
+    color: blue;
+    font-weight: bold;
 }
 #MovieBoard th, td {
-    border: 1px solid black;
+    border: 1.5px solid black;
     width: 30%;
+    padding: .5%;
     justify-content: space-evenly;
     text-align: center;
-    
+}
+#robo_kiosk {
+    margin: -05% 0 0 -15%;
+}
+#robo_kiosk img {
+    height:20%;
+    width: 20%;
+}
+#octo_pop {
+    margin: 0% 0 0 65%;
 }

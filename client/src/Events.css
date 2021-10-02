@@ -27,9 +27,17 @@
     font-family: 'Orbitron', sans-serif; 
     /* font-family: 'Allerta Stencil', sans-serif; */
 }
+#navigation li a:hover {
+    text-decoration: underline;
+}
 #navigation li a.active {
     background-color: #38a9ad;
     color: white;
+}
+#navigation li a:hover:not(.active) {
+    background-color: #5499C7;
+    color: white;
+    border: 1px solid black;
 }
 .resume_button {
     border-radius: 1em;
