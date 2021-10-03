@@ -5,7 +5,7 @@ import Kiosk from '../static/Kiosk.gif';
 
 const MovieTheatre = () => {
     return (
-        <>
+        <div id="Movie_Wrap">
         <Head/>
         <div id="MovieBoard">
             <h3>Currently Playing</h3>
@@ -57,7 +57,7 @@ const MovieTheatre = () => {
         <div id="robo_kiosk">
             <img src={Kiosk} alt="robo_kiosk" id="robo_kiosk"/>
         </div>
-        </>
+        </div>
     )
 }
 export default MovieTheatre;

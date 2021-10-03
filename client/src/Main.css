@@ -171,3 +171,12 @@
     z-index: -1;
     position: relative;
 }
+/* #Movie_Wrap {
+    background-image: ;
+} */
+#Sketchy_characters {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

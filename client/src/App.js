@@ -15,7 +15,7 @@ import Paint from './views/Paint';
 import Asteroids from './views/Asteroids';
 import MovieLobby from './views/MovieLobby';
 import MusicVenue from './views/MusicVenue';
-
+import Sketchy from './views/Sketchy';
 
 function App() {
   const [theme, setTheme] = useState({mode: 'light'})
@@ -37,6 +37,7 @@ function App() {
             <Paint path="/Paint"/>
             <Asteroids path="/Asteroids"/>
             <MusicVenue path="/MusicVenue"/>
+            <Sketchy path="/Sketchy"/>
           </Router>
       </React.Fragment>
     </div>
