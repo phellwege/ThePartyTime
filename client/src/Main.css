@@ -178,5 +178,9 @@
     height: 20%;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+#Sketchy_trumpy {
+    margin: -45% 5% 5% 5%;
+    z-index:-1;
 }
