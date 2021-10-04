@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { ThemeProvider, createGlobalStyle } from 'styled-components';
 import Logo4 from '../static/Logo4.png';
-import Thi from '../static/320x180.gif';
-import SunnyBkg from '../static/Sunny.gif';
+import Thi from '../static/RisingSun.gif';
+import RisingSun from '../static/RisingSun.gif';
 import Toggle from '../Toggle/DayNight_Mode';
 import '../Head.css';
 
@@ -20,7 +20,7 @@ const GlobalStyle = createGlobalStyle`
     }
     #background {
         background-image: ${props => 
-            props.theme.mode === 'dark' ? `url(${Thi})` : `url(${SunnyBkg})`};
+            props.theme.mode === 'dark' ? `url(${Thi})` : `url(${RisingSun})`};
         transition: ${props => 
             props.theme.mode === 'dark' ? 'all 1.5s ease-in-out': 'all 1.5s ease-in-out'};
     }
