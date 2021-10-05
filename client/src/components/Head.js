@@ -32,6 +32,12 @@ const GlobalStyle = createGlobalStyle`
         text-shadow: ${props => 
             props.theme.mode === 'dark' ? '0 0 15px #f5f5f5' : 'none' };
     }
+    #under-banner {
+        color: ${props => 
+            props.theme.mode === 'dark' ? 'white' : 'none' };
+        text-shadow: ${props => 
+            props.theme.mode === 'dark' ? '0 0 5px #f5f5f5' : 'none' };
+    }
     #footer_links a {
         color: ${props => 
             props.theme.mode === 'dark' ? '#b1b1b3' : '#111' };
@@ -135,7 +141,7 @@ const Head = () => {
             </div>
             <div>
                 <h1>Party Time</h1>
-                <p>party</p>
+                <p id="under-banner">party</p>
             </div>
             <div className="Mode">
                 <Toggle toggled={toggled} onClick={handleClick} />

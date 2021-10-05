@@ -14,6 +14,7 @@
     background-Size: cover;
     background-Repeat: no-repeat;
 }
+
 #foot_wrap {
     display: flex;
     justify-content: space-evenly;
@@ -21,6 +22,7 @@
     width: 90%;
     bottom: 0;
     margin-top: 10px;
+    z-index: 1;
 }
 #footer_links {
     display: flex;
@@ -33,8 +35,10 @@
     flex-direction: column;
     justify-content: space-around;
     height: 25%;
-    margin: 35% 0 0 65%;
+    margin: 25% 0 0 65%;
     border-radius: 20%;
+    z-index: 1;
+    position: relative;
 }
 #Controller-interface2{
     width: 25%;
@@ -42,17 +46,21 @@
     flex-direction: column;
     justify-content: space-around;
     height: 25%;
-    margin: 35% 0 0 65%;
+    margin: 25% 0 0 65%;
     border-radius: 20%;
+    z-index: 1;
+    position: relative;
 }
 .Selector {
     display: flex;
     justify-content: space-evenly;
     margin: 15px;
     cursor: pointer;
+    z-index: 1;
 }
 .Selector img {
     height: 50px;
+    z-index: 1;
 }
 .AlienBro {
     width: 10%;
@@ -61,14 +69,14 @@
     cursor: pointer;
 }
 .OnStage {
-    margin: -15% 0 0 20%;
+    margin: 5% 0 0 20%;
     position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
-    z-index: -2;
+    z-index: 0;
 }
 .OnStage img {
     height: 200%;
@@ -78,6 +86,10 @@
 #music_selector {
     padding-bottom: 30px;
     opacity: 85%;
+    z-index: 1;
+}
+#Controller_interface {
+    z-index: 1;
 }
 #scrolling_text {
     width: 150%;
@@ -89,7 +101,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 10% 0 0 15%;
+    margin: 0 0 0 15%;
     justify-content: space-between;
     align-items: center;
 }
@@ -167,7 +179,7 @@
     width:100%;
     bottom:0;
     margin: -25% 0 0 0%;
-    z-index: -1;
+    z-index: 0;
     position: relative;
 }
 #Movie_Wrap {
@@ -186,4 +198,13 @@
 #Sketchy_trumpy {
     margin: 0% 15% 0% 0%;
     z-index:-1;
+}
+#Music_background {
+    margin:0px;
+    background-Size: cover;
+    background-Repeat: no-repeat;
+    background-image: url('./static/MusicBkg.gif');
+    width: 100vw;
+    top: -1;
+    position: relative;
 }
