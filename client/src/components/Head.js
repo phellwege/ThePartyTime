@@ -1,14 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import { ThemeProvider, createGlobalStyle } from 'styled-components';
 import Logo4 from '../static/Logo4.png';
-import Thi from '../static/RisingSun.gif';
-import RisingSun from '../static/RisingSun.gif';
+import DayBkg from '../static/FinalDayBkg.gif';
+import NightBkg from '../static/FinalNightBkg.gif';
 import Toggle from '../Toggle/DayNight_Mode';
 import '../Head.css';
 
 // the first set is dark mode, the second is light mode
 // dark contrast color b1b1b3
 // light contrast color #111
+// backgrounds are 320x180 pixels
+// images are 128x128 pixels
 const GlobalStyle = createGlobalStyle`
     body {
         background-color: ${props => 
@@ -20,9 +22,15 @@ const GlobalStyle = createGlobalStyle`
     }
     #background {
         background-image: ${props => 
-            props.theme.mode === 'dark' ? `url(${Thi})` : `url(${RisingSun})`};
+            props.theme.mode === 'dark' ? `url(${DayBkg})` : `url(${NightBkg})`};
         transition: ${props => 
             props.theme.mode === 'dark' ? 'all 1.5s ease-in-out': 'all 1.5s ease-in-out'};
+    }
+    #background h1 {
+        color: ${props => 
+            props.theme.mode === 'dark' ? 'white' : 'none' };
+        text-shadow: ${props => 
+            props.theme.mode === 'dark' ? '0 0 15px #f5f5f5' : 'none' };
     }
     #footer_links a {
         color: ${props => 
