@@ -260,3 +260,9 @@
     background-Size: cover;
     background-Repeat: no-repeat;
 }
+#AlienRight {
+    display: none;
+}
+#AlienLeft {
+    display:none;
+}

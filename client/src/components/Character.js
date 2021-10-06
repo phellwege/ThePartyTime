@@ -24,17 +24,11 @@ document.getElementById('RightArrow')
 
     }
     return (
-        <>
-        
-            <img src={AlienFWD} alt="Character" class="AlienBro" onClick={(CharPhrase)}/>
-        
-        {/* <div class="AlienDiv" id="2">
-            <img src={AlienRight} alt="Character" class="AlienBro"/>
+        <div id="Character_Movement">
+            <img src={AlienFWD} alt="Character" class="AlienBro" id="AlienFWD" onClick={(CharPhrase)}/>
+            <img src={AlienRight} alt="Character" class="AlienBro" id="AlienRight" onClick={(CharPhrase)}/>
+            <img src={AlienLeft} alt="Character" class="AlienBro" id="AlienLeft" onClick={(CharPhrase)}/>
         </div>
-        <div class="AlienDiv" id="3">
-            <img src={AlienLeft} alt="Character" class="AlienBro"/>
-        </div> */}
-        </>
     )
 }
 export default Character;

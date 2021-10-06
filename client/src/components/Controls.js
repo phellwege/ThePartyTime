@@ -10,19 +10,50 @@ import Character from '../components/Character';
 import "../Main.css";
 
 const Controls = () => {
-    const [move, setMove] = useState({direction: 'FWD'});
-    const moveLeft = () => {
-        setMove(move.direction === 'FWD' ? {direction: 'FWD'}:{direction: 'Left'});
-        this.move(`${<img src={AlienLeft} alt="Character" class="AlienBro"/>}`);
-    };
-    const moveRight = () => {
-        setMove(move.direction === 'FWD' ? {direction: 'FWD'}:{direction: 'Right'});
-        this.move(`${<img src={AlienRight} alt="Character" class="AlienBro"/>}`);
-    };
-    const moveDefault = () => {
-        setMove(move.direction === 'FWD' ? {direction: 'FWD'}:{direction: 'FWD'});
-        this.move(`${<img src={AlienFWD} alt="Character" class="AlienBro"/>}`);
-    };
+    function moveLeft() {
+        var x = document.getElementById('AlienFWD') 
+        if(x.style.display === 'none') {
+            x.style.display = 'block';
+        } else {
+            x.style.display = 'none';
+        }
+
+        var y = document.getElementById('AlienLeft')
+        if(y.style.display === 'none') {
+            y.style.display = 'block';
+        } else {
+            y.style.display = 'none';
+        }
+
+        var z = document.getElementById('AlienRight')
+        if(z.style.display === 'block') {
+            z.style.display = 'none';
+        } else {
+            z.style.display = 'block';
+        }
+    }
+    function moveRight() {
+    const x = document.getElementById('AlienFWD')
+    if(x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+    var y = document.getElementById('AlienRight')
+        if(y.style.display === 'none') {
+            y.style.display = 'block';
+        } else {
+            y.style.display = 'none';
+        }
+    }
+    function moveDefault() {
+        const x = document.getElementById('AlienFWD')
+        if(x.style.display === 'none') {
+            x.style.display = 'block';
+        } else {
+            x.style.display = 'none';
+        }
+    }
 
     return (
         <>
