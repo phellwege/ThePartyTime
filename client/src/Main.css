@@ -143,9 +143,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 10% 0 0 15%;
-    z-index: 444;
+    margin: 0 0 0 30%;
     font: 2em;
+    position: relative;
+    z-index: 1;
 }
 #MovieBoard {
     background-color: rgb(226, 226, 226);
@@ -166,11 +167,11 @@
     text-align: center;
 }
 #robo_kiosk {
-    margin: 0% 0 0 -22.5%;
+    margin: -2.5% 0 0 -24%;
 }
 #robo_kiosk img {
-    height:20%;
-    width: 20%;
+    height:25%;
+    width: 25%;
 }
 #octo_pop {
     margin: 0% 0 0 65%;
@@ -183,10 +184,11 @@
     position: relative;
 }
 #Movie_Wrap {
-    background-image: url('./static/TheatreBkg.jpg');
+    background-image: url('./static/MovieBkg.gif');
     background-Position: center;
     background-Size: cover;
     background-Repeat: no-repeat;
+    width:100vw;
 }
 #Sketchy_characters {
     height: 20%;
