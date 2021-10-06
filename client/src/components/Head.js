@@ -102,7 +102,9 @@ const GlobalStyle = createGlobalStyle`
         box-shadow: ${props => 
             props.theme.mode === 'dark' ? '0 0 25px white' : 'none'};
         color: ${props =>
-            props.theme.mode === 'dark' ? '#3F51B5' : '#6D4C41'};
+            props.theme.mode === 'dark' ? '#3F51B5' : 'darkblue'};
+        font-size: ${props =>
+            props.theme.mode === 'dark' ? '1.25em' : '1.25em'};
     }
     #MovieBoard a {
         color: ${props =>
