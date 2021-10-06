@@ -18,19 +18,32 @@ const GlobalStyle = createGlobalStyle`
         color: ${props => 
             props.theme.mode === 'dark' ? '#b1b1b3' : '#111' };
         transition: ${props => 
-            props.theme.mode === 'dark' ? 'all 0.3s ease-in-out': 'all 0.5s ease-in-out'};
+            props.theme.mode === 'dark' ? 'all 1.5s ease-in-out': 'all 1.5s ease-in-out'};
     }
     #background {
         background-image: ${props => 
-            props.theme.mode === 'dark' ? `url(${DayBkg})` : `url(${NightBkg})`};
-        transition: ${props => 
-            props.theme.mode === 'dark' ? 'all 1.5s ease-in-out': 'all 1.5s ease-in-out'};
+            props.theme.mode === 'dark' ? `url(${DayBkg})` : `url(${NightBkg})`}; 
+            transition: ${props => 
+                props.theme.mode === 'dark' ? 'all 1.5s ease-in-out': 'all 1.5s ease-in-out'};
     }
-    #background h1 {
+
+    h1 {
         color: ${props => 
             props.theme.mode === 'dark' ? 'white' : 'none' };
         text-shadow: ${props => 
             props.theme.mode === 'dark' ? '0 0 15px #f5f5f5' : 'none' };
+    }
+    #Music_background #under-banner {
+        color: ${props => 
+            props.theme.mode === 'dark' ? 'hotpink' : 'none' };
+        text-shadow: ${props => 
+            props.theme.mode === 'dark' ? '0 0 5px hotpink' : 'none' };
+    }
+    #Music_background h1 {
+        color: ${props => 
+            props.theme.mode === 'dark' ? 'hotpink' : '#C2185B' };
+        text-shadow: ${props => 
+            props.theme.mode === 'dark' ? '0 0 15px hotpink' : 'none' };
     }
     #under-banner {
         color: ${props => 

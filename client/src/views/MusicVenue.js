@@ -6,9 +6,7 @@ import Crowd from '../static/Crowd.gif';
 
 const MusicVenue = () => {
     return (
-        <div id="Music_background"
-            
-        >
+        <div id="Music_background">
 
         <Head/>
         <div class="OnStage">

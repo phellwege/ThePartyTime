@@ -27,10 +27,10 @@ const Rules = () => {
                 <td>Asteroids</td>
                 <td>Movies</td>
             </tr>
-            <tr>
+            {/* <tr>
                 <td>Day event</td>
                 <td>Night</td>
-            </tr>
+            </tr> */}
 
         </table>
         </>
