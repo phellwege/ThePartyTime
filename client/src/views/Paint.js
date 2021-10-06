@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 
 const Paint = () => {
     return (
-        <>
+        <div id="Paint_Wrapper">
         <Head/>
             <div>
                 <h1>Art</h1>
@@ -24,7 +24,7 @@ const Paint = () => {
                 </div>
             </div>
             <Footer/>
-        </>
+        </div>
     )
 }
 export default Paint;

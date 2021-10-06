@@ -217,6 +217,7 @@
     margin-left: 30%;
     border-radius: 2.5%;
     padding: 5px;
+    background-color: lightgrey;
 }
 #Art_Wrapper {
     display: flex;
@@ -250,4 +251,9 @@
 #Alien_Driver img{
     height: 20%;
     width: 20%;
+}
+#Paint_Wrapper {
+    background-Position: center;
+    background-Size: cover;
+    background-Repeat: no-repeat;
 }

@@ -3,6 +3,8 @@ import { ThemeProvider, createGlobalStyle } from 'styled-components';
 import Logo4 from '../static/Logo4.png';
 import DayBkg from '../static/FinalDayBkg.gif';
 import NightBkg from '../static/FinalNightBkg.gif';
+import PaintBkg from '../static/PaintBkg.gif';
+import PaintNightBkg from '../static/PaintNightBkg.gif';
 import Toggle from '../Toggle/DayNight_Mode';
 import '../Head.css';
 
@@ -26,7 +28,12 @@ const GlobalStyle = createGlobalStyle`
             transition: ${props => 
                 props.theme.mode === 'dark' ? 'all 1.5s ease-in-out': 'all 1.5s ease-in-out'};
     }
-
+    #Paint_Wrapper {
+        background-image: ${props => 
+            props.theme.mode === 'dark' ? `url(${PaintNightBkg})` : `url(${PaintBkg})`}; 
+            transition: ${props => 
+                props.theme.mode === 'dark' ? 'all 1.5s ease-in-out': 'all 1.5s ease-in-out'};
+    }
     h1 {
         color: ${props => 
             props.theme.mode === 'dark' ? 'white' : 'none' };
