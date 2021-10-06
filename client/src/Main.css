@@ -14,7 +14,6 @@
     background-Size: cover;
     background-Repeat: no-repeat;
 }
-
 #foot_wrap {
     display: flex;
     justify-content: space-evenly;
@@ -188,7 +187,7 @@
     background-Position: center;
     background-Size: cover;
     background-Repeat: no-repeat;
-    width:100vw;
+    width:100%;
 }
 #Sketchy_characters {
     height: 20%;
@@ -216,6 +215,8 @@
     border: 3px solid black;
     align-items: center;
     margin-left: 30%;
+    border-radius: 2.5%;
+    padding: 5px;
 }
 #Art_Wrapper {
     display: flex;
@@ -234,4 +235,19 @@
     margin: 0;
     list-style-type: none;
     padding: 10px;
+}
+#Cockpit_View {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#Asteroids_Game_Window {
+    border: 3.5px dashed rgb(0, 255, 0);
+    height: 45vh;
+    width: 55%;
+    margin-left: 22.5%;
+}
+#Alien_Driver img{
+    height: 20%;
+    width: 20%;
 }
