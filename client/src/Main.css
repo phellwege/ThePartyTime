@@ -171,9 +171,11 @@
 #robo_kiosk img {
     height:25%;
     width: 25%;
+    cursor:pointer;
 }
 #octo_pop {
     margin: -5% 0 0 50%;
+    cursor: pointer;
 }
 #Loud_Crowd {
     width:100%;

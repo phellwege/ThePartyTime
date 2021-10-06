@@ -5,7 +5,6 @@ import '../Main.css';
 import Footer from "../components/Footer";
 
 function componentDidMount() {
-
         var canvas = document.getElementById('Art_Canvas');
         var ctx = canvas.getContext('2d');
         if (canvas.getContext) {

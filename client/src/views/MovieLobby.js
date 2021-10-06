@@ -3,6 +3,13 @@ import Head from '../components/Head';
 import Octo_pop from '../static/octo_pop.gif';
 import Kiosk from '../static/Kiosk.gif';
 
+const WhatYouWant = () => {
+    alert(`Who do you think you're Looking at?!`)
+};
+const GetYouAnything = () => {
+    alert(`Can I get you anything?`)
+}
+
 const MovieTheatre = () => {
     return (
         <div id="Movie_Wrap">
@@ -53,10 +60,10 @@ const MovieTheatre = () => {
             </div>
             
             <div id="robo_kiosk">
-                <img src={Kiosk} alt="robo_kiosk" id="robo_kiosk"/>
+                <img src={Kiosk} alt="robo_kiosk" id="robo_kiosk" onClick={GetYouAnything}/>
             </div>
             <div id="octo_pop">
-                <img src={Octo_pop} alt="octo_pop"/>
+                <img src={Octo_pop} alt="octo_pop" onClick={WhatYouWant}/>
             </div>
         </div>
     )
