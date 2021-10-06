@@ -19,9 +19,9 @@
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     bottom: 0;
-    margin-top: 10px;
+    margin-top: 25px;
     z-index: 1;
 }
 #footer_links {
