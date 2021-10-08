@@ -17,12 +17,6 @@ const CharPhrase = () => {
     alert(`Let's Party!`)
 };
 
-document.getElementById('LeftArrow')
-document.getElementById('RightArrow')
-
-    const MoveMe =(props)=> {
-
-    }
     return (
         <div id="Character_Movement">
             <img src={AlienFWD} alt="Character" class="AlienBro" id="AlienFWD" onClick={(CharPhrase)}/>

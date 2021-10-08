@@ -11,47 +11,56 @@ import "../Main.css";
 
 const Controls = () => {
     function moveLeft() {
-        var x = document.getElementById('AlienFWD') 
+        const x = document.getElementById('AlienFWD') 
+        const y = document.getElementById('AlienLeft')
+        const z = document.getElementById('AlienRight')
         if(x.style.display === 'none') {
             x.style.display = 'block';
         } else {
             x.style.display = 'none';
         }
 
-        var y = document.getElementById('AlienLeft')
-        if(y.style.display === 'none') {
-            y.style.display = 'block';
-        } else {
+        if(y.style.display === 'block') {
             y.style.display = 'none';
-        }
-
-        var z = document.getElementById('AlienRight')
-        if(z.style.display === 'block') {
-            z.style.display = 'none';
         } else {
-            z.style.display = 'block';
+            y.style.display = 'block';
         }
+        if(z.style.display === 'block' || z.style.display === 'none') {
+            z.style.display = 'none';
+        } 
+
     }
     function moveRight() {
-    const x = document.getElementById('AlienFWD')
+    var x = document.getElementById('AlienFWD')
+    var y = document.getElementById('AlienRight')
+    var z = document.getElementById('AlienLeft')
     if(x.style.display === 'none') {
         x.style.display = 'block';
     } else {
         x.style.display = 'none';
     }
-    var y = document.getElementById('AlienRight')
-        if(y.style.display === 'none') {
-            y.style.display = 'block';
-        } else {
+        if(y.style.display === 'block') {
             y.style.display = 'none';
+        } else {
+            y.style.display = 'block';
+        }
+        if(z.style.display === 'block'|| z.style.display === 'none'){
+            z.style.display = 'none';
         }
     }
+
     function moveDefault() {
-        const x = document.getElementById('AlienFWD')
+        var x = document.getElementById('AlienFWD')
+        var y = document.getElementById('AlienRight')
+        var z = document.getElementById('AlienLeft')
         if(x.style.display === 'none') {
             x.style.display = 'block';
-        } else {
-            x.style.display = 'none';
+        } 
+        if(y.style.display === 'block'){
+            y.style.display = 'none';
+        }
+        if(z.style.display === 'block'){
+            z.style.display = 'none';
         }
     }
 
