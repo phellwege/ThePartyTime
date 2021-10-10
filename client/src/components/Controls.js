@@ -14,37 +14,30 @@ const Controls = () => {
         const x = document.getElementById('AlienFWD') 
         const y = document.getElementById('AlienLeft')
         const z = document.getElementById('AlienRight')
-        if(x.style.display === 'none') {
-            x.style.display = 'block';
-        } else {
-            x.style.display = 'none';
-        }
 
         if(y.style.display === 'block') {
+            x.style.display = 'block';
             y.style.display = 'none';
-        } else {
-            y.style.display = 'block';
-        }
-        if(z.style.display === 'block' || z.style.display === 'none') {
             z.style.display = 'none';
-        } 
+        } else {
+            x.style.display = 'none'
+            y.style.display = 'block';
+            z.style.display = 'none';
+        }
+
 
     }
     function moveRight() {
     var x = document.getElementById('AlienFWD')
     var y = document.getElementById('AlienRight')
     var z = document.getElementById('AlienLeft')
-    if(x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
         if(y.style.display === 'block') {
+            x.style.display = 'block';
             y.style.display = 'none';
+            z.style.display = 'none';
         } else {
+            x.style.display = 'none';
             y.style.display = 'block';
-        }
-        if(z.style.display === 'block'|| z.style.display === 'none'){
             z.style.display = 'none';
         }
     }
@@ -55,13 +48,9 @@ const Controls = () => {
         var z = document.getElementById('AlienLeft')
         if(x.style.display === 'none') {
             x.style.display = 'block';
-        } 
-        if(y.style.display === 'block'){
             y.style.display = 'none';
-        }
-        if(z.style.display === 'block'){
             z.style.display = 'none';
-        }
+        } 
     }
 
     return (
