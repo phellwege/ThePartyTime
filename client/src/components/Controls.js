@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from '@reach/router';
 import Left from '../static/Left.png';
 import Pause from '../static/pause.png';
 import Right from '../static/Right.png';
@@ -14,7 +13,6 @@ const Controls = () => {
         const x = document.getElementById('AlienFWD') 
         const y = document.getElementById('AlienLeft')
         const z = document.getElementById('AlienRight')
-
         if(y.style.display === 'block') {
             x.style.display = 'block';
             y.style.display = 'none';
@@ -24,8 +22,6 @@ const Controls = () => {
             y.style.display = 'block';
             z.style.display = 'none';
         }
-
-
     }
     function moveRight() {
     var x = document.getElementById('AlienFWD')
@@ -41,7 +37,6 @@ const Controls = () => {
             z.style.display = 'none';
         }
     }
-
     function moveDefault() {
         var x = document.getElementById('AlienFWD')
         var y = document.getElementById('AlienRight')
@@ -52,7 +47,6 @@ const Controls = () => {
             z.style.display = 'none';
         } 
     }
-
     return (
         <>
             <div id="Controller-interface">
