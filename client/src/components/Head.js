@@ -17,6 +17,7 @@ import '../Head.css';
 // light contrast color #111
 // backgrounds are 320x180 pixels
 // images are 128x128 pixels
+
 const GlobalStyle = createGlobalStyle`
     body {
         background-color: ${props => 
