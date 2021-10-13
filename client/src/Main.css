@@ -8,7 +8,7 @@
     padding: 0px;
 }
 #background {
-    display: flex;
+
     flex-direction: column;
     background-Position: center;
     background-Size: cover;
@@ -64,7 +64,6 @@
 .AlienBro {
     width: 10%;
     height: 10%;
-    margin: -10% 0 0 40%;
     cursor: pointer;
 }
 .OnStage {
@@ -264,4 +263,9 @@
 }
 #AlienLeft {
     display: none;
+}
+#Character_Movement {
+    display: flex;
+    justify-content: space-around;
+    margin: -6% 0 0 0;
 }
