@@ -166,11 +166,11 @@
     text-align: center;
 }
 #robo_kiosk {
-    margin: -2.5% 0 0 -24%;
+    margin: -2.5% 0 0 -55%;
 }
 #robo_kiosk img {
-    height:25%;
-    width: 25%;
+    height:20%;
+    width: 20%;
     cursor:pointer;
 }
 #octo_pop {

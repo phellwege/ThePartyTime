@@ -60,7 +60,7 @@ const MovieTheatre = () => {
             </div>
             
             <div id="robo_kiosk">
-                <img src={Kiosk} alt="robo_kiosk" id="robo_kiosk" onClick={GetYouAnything}/>
+                <img src={Kiosk} alt="robo_kiosk" onClick={GetYouAnything}/>
             </div>
             <div id="octo_pop">
                 <img src={Octo_pop} alt="octo_pop" onClick={WhatYouWant}/>

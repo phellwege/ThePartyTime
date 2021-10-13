@@ -118,6 +118,14 @@ const GlobalStyle = createGlobalStyle`
         box-shadow: ${props => 
             props.theme.mode === 'dark' ? '0 0 25px #38a9ad' : 'none'};
     }
+    #robo_kiosk {
+        visibility: ${props => 
+            props.theme.mode === 'dark' ? 'block' : 'hidden'};
+    }
+    #octo_pop {
+        visibility: ${props => 
+            props.theme.mode === 'dark' ? 'block' : 'hidden'};
+    }
     #MovieBoard {
         box-shadow: ${props => 
             props.theme.mode === 'dark' ? '0 0 25px white' : 'none'};
