@@ -8,11 +8,6 @@ import "../Main.css";
 
 const Character = () => {
 
-
-const [moveLeft, setMoveLeft] = useState(false);
-const [moveRight, setMoveRight] = useState(false);
-const [moveDefault, setMoveDefault] = useState('');
-
 const CharPhrase = () => {
     alert(`Let's Party!`)
 };

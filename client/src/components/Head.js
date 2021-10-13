@@ -7,6 +7,8 @@ import PaintBkg from '../static/PaintBkg.gif';
 import PaintNightBkg from '../static/PaintNightBkg.gif';
 import MusicBkg from '../static/MusicBkg.gif';
 import MusicBkgDay from '../static/MusicDayBkg.gif';
+import MovieBkg from '../static/MovieBkg.gif';
+import MovieDayBkg from '../static/MovieDayBkg.gif';
 import Toggle from '../Toggle/DayNight_Mode';
 import '../Head.css';
 
@@ -141,6 +143,12 @@ const GlobalStyle = createGlobalStyle`
     #octo_pop {
         visibility: ${props => 
             props.theme.mode === 'dark' ? 'block' : 'hidden'};
+    }
+    #Movie_Wrap {
+        background-image: ${props => 
+            props.theme.mode === 'dark' ? `url(${MovieBkg})` : `url(${MovieDayBkg})`};
+        transition: ${props => 
+            props.theme.mode === 'dark' ? 'all 1.5s ease-in-out': 'all 1.5s ease-in-out'};
     }
     #MovieBoard {
         box-shadow: ${props => 
