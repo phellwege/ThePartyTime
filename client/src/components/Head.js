@@ -5,6 +5,8 @@ import DayBkg from '../static/FinalDayBkg.gif';
 import NightBkg from '../static/FinalNightBkg.gif';
 import PaintBkg from '../static/PaintBkg.gif';
 import PaintNightBkg from '../static/PaintNightBkg.gif';
+import MusicBkg from '../static/MusicBkg.gif';
+import MusicBkgDay from '../static/MusicDayBkg.gif';
 import Toggle from '../Toggle/DayNight_Mode';
 import '../Head.css';
 
@@ -31,14 +33,20 @@ const GlobalStyle = createGlobalStyle`
     #Paint_Wrapper {
         background-image: ${props => 
             props.theme.mode === 'dark' ? `url(${PaintNightBkg})` : `url(${PaintBkg})`}; 
-            transition: ${props => 
-                props.theme.mode === 'dark' ? 'all 1.5s ease-in-out': 'all 1.5s ease-in-out'};
+        transition: ${props => 
+            props.theme.mode === 'dark' ? 'all 1.5s ease-in-out': 'all 1.5s ease-in-out'};
     }
     h1 {
         color: ${props => 
             props.theme.mode === 'dark' ? 'white' : 'none' };
         text-shadow: ${props => 
             props.theme.mode === 'dark' ? '0 0 15px #f5f5f5' : 'none' };
+    }
+    #Music_background {
+        background-image: ${props => 
+            props.theme.mode === 'dark' ? `url(${MusicBkg})` : `url(${MusicBkgDay})` };
+        transition: ${props => 
+            props.theme.mode === 'dark' ? 'all 1.5s ease-in-out': 'all 1.5s ease-in-out'};
     }
     #Music_background #under-banner {
         color: ${props => 
@@ -51,6 +59,14 @@ const GlobalStyle = createGlobalStyle`
             props.theme.mode === 'dark' ? 'hotpink' : '#C2185B' };
         text-shadow: ${props => 
             props.theme.mode === 'dark' ? '0 0 15px hotpink' : 'none' };
+    }
+    .OnStage {
+        visibility: ${props => 
+            props.theme.mode === 'dark' ? 'block' : 'hidden'};
+    }
+    #Loud_Crowd {
+        visibility: ${props => 
+            props.theme.mode === 'dark' ? 'block' : 'hidden'};
     }
     #under-banner {
         color: ${props => 
