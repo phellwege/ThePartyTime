@@ -64,6 +64,7 @@
     width: 10%;
     height: 10%;
     cursor: pointer;
+    z-index: 1;
 }
 .OnStage {
     margin: 5% 0 0 19%;
@@ -267,4 +268,13 @@
     display: flex;
     justify-content: space-around;
     margin: -6% 0 0 0;
+}
+#Moving_Panel{
+    background-image: url('./static/MovingPanelDay.gif');
+    width: 300%;
+    height: 35vh;
+    background-Position: relative;
+    background-Repeat: no-repeat;
+    z-index: -449;
+    bottom: 0;
 }
