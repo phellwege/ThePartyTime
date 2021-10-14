@@ -2,7 +2,7 @@ import "../Main.css";
 import Head from '../components/Head';
 import Octo_pop from '../static/octo_pop.gif';
 import Kiosk from '../static/Kiosk.gif';
-
+import AngryJan from '../static/Sweep.gif';
 const WhatYouWant = () => {
     alert(`Who do you think you're Looking at?!`)
 };
@@ -61,6 +61,9 @@ const MovieTheatre = () => {
             
             <div id="robo_kiosk">
                 <img src={Kiosk} alt="robo_kiosk" onClick={GetYouAnything}/>
+            </div>
+            <div id="angry_jan">
+                <img src={AngryJan} alt="angry janitor"/>
             </div>
             <div id="octo_pop">
                 <img src={Octo_pop} alt="octo_pop" onClick={WhatYouWant}/>

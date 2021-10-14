@@ -138,8 +138,12 @@ const GlobalStyle = createGlobalStyle`
             props.theme.mode === 'dark' ? '0 0 25px #38a9ad' : 'none'};
     }
     #robo_kiosk {
-        visibility: ${props => 
-            props.theme.mode === 'dark' ? 'block' : 'hidden'};
+        display: ${props => 
+            props.theme.mode === 'dark' ? 'block' : 'none'};
+    }
+    #angry_jan {
+        display: ${props => 
+            props.theme.mode === 'dark' ? 'none' : 'block'};
     }
     #octo_pop {
         visibility: ${props => 
