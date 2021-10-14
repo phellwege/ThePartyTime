@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { ThemeProvider, createGlobalStyle } from 'styled-components';
 import Logo4 from '../static/Logo4.png';
 import DayBkg from '../static/FinalDayBkg.gif';

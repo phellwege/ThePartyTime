@@ -1,10 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import { Link } from '@reach/router';
+import React from 'react';
 import AlienFWD from '../static/AlienFWD.gif';
 import AlienRight from '../static/AlienRight.gif';
 import AlienLeft from '../static/AlienLeft.gif';
-import Controls from '../components/Controls';
-import MovingPanel from '../static/MovingPanelDay.gif';
 import "../Main.css";
 
 const Character = () => {
