@@ -162,6 +162,8 @@ const GlobalStyle = createGlobalStyle`
             props.theme.mode === 'dark' ? '#3F51B5' : 'darkblue'};
         font-size: ${props =>
             props.theme.mode === 'dark' ? '1.25em' : '1.25em'};
+            display: ${props =>
+                props.theme.mode === 'dark' ? 'block' : 'none'};
     }
     #MovieBoard a {
         color: ${props =>

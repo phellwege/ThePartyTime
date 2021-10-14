@@ -9,6 +9,9 @@ const WhatYouWant = () => {
 const GetYouAnything = () => {
     alert(`Can I get you anything?`)
 }
+const SorryWereClosed = () => {
+    alert(`Sorry We're closed for matinee showings`)
+}
 
 const MovieTheatre = () => {
     return (
@@ -63,7 +66,7 @@ const MovieTheatre = () => {
                 <img src={Kiosk} alt="robo_kiosk" onClick={GetYouAnything}/>
             </div>
             <div id="angry_jan">
-                <img src={AngryJan} alt="angry janitor"/>
+                <img src={AngryJan} alt="angry janitor" onClick={SorryWereClosed}/>
             </div>
             <div id="octo_pop">
                 <img src={Octo_pop} alt="octo_pop" onClick={WhatYouWant}/>
