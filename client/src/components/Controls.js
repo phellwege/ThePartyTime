@@ -1,11 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Left from '../static/Left.png';
 import Pause from '../static/pause.png';
 import Right from '../static/Right.png';
-import AlienLeft from '../static/AlienLeft.gif';
-import AlienRight from '../static/AlienRight.gif';
-import AlienFWD from '../static/AlienFWD.gif';
-import Character from '../components/Character';
 import "../Main.css";
 
 const Controls = () => {
