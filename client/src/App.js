@@ -23,7 +23,7 @@ function App() {
     <ThemeProvider theme={theme}>
     <div className="App">
       <React.Fragment>
-          <Router basename={process.env.PUBLIC_URL}>
+          <Router>
             <Main path="/"/>
             <Rules path="/Rules"/>
             <TaC path="/TaC"/>
