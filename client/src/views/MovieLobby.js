@@ -61,7 +61,11 @@ const MovieTheatre = () => {
                         </tr>
                 </table>
             </div>
-            
+            <div id="ClosedSign">
+                <h2>Closed</h2>
+                <p>Sorry for the inconvenience but we're closed during the day</p>
+            </div>
+
             <div id="robo_kiosk">
                 <img src={Kiosk} alt="robo_kiosk" onClick={GetYouAnything}/>
             </div>

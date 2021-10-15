@@ -23,12 +23,11 @@ const Paint = () => {
     return (
         <div id="Paint_Wrapper">
         <Head/>
-            <div>
+            <div id="Art">
                 <h1>Art</h1>
             </div>
             <div id="Artist">
                 <canvas id="Art_Canvas" alt="Artists' Canvas">
-
                 </canvas>
                 <div id="Art_Tools">
                     <ul>

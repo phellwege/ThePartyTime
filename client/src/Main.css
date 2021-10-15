@@ -146,6 +146,19 @@
     position: relative;
     z-index: 1;
 }
+#ClosedSign {
+    width: 35%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 0 0 31.5%;
+    font: 2em;
+    position: relative;
+    z-index: 1;
+    background-color: lightgrey;
+    border: 3px solid black;
+}
 #MovieBoard {
     background-color: rgb(226, 226, 226);
     border: 3px solid black;
@@ -279,10 +292,10 @@
     bottom: 0;
 }
 #angry_jan {
-    margin: 10% 0 0 -25%;
+    margin: 7% 0 0 -20%;
 }
 #angry_jan img {
-    height: 27.5%;
-    width: 27.5%;
+    height: 25%;
+    width: 25%;
     cursor: pointer;
 }

@@ -162,8 +162,8 @@ const GlobalStyle = createGlobalStyle`
             props.theme.mode === 'dark' ? '#3F51B5' : 'darkblue'};
         font-size: ${props =>
             props.theme.mode === 'dark' ? '1.25em' : '1.25em'};
-            display: ${props =>
-                props.theme.mode === 'dark' ? 'block' : 'none'};
+        display: ${props =>
+            props.theme.mode === 'dark' ? 'block' : 'none'};
     }
     #MovieBoard a {
         color: ${props =>
@@ -178,8 +178,21 @@ const GlobalStyle = createGlobalStyle`
             props.theme.mode === 'dark' ? '0 0 25px #ff9800' : 'none'};
         border: ${props => 
             props.theme.mode === 'dark' ? '3px solid #ff9800' : '3px solid black;' };
+        visibility: ${props => 
+            props.theme.mode === 'dark' ? 'block' : 'hidden'};
     }
-
+    #ClosedSign {
+        display: ${props => 
+            props.theme.mode === 'dark' ? 'none' : 'block'};
+    }
+    #Artist {
+        visibility: ${props => 
+            props.theme.mode === 'dark' ? 'hidden' : 'block'};
+    }
+    #Art {
+        visibility: ${props => 
+            props.theme.mode === 'dark' ? 'hidden' : 'block'};
+    }
     };
 `
 
