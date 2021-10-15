@@ -193,6 +193,22 @@ const GlobalStyle = createGlobalStyle`
         visibility: ${props => 
             props.theme.mode === 'dark' ? 'hidden' : 'block'};
     }
+    #Driving {
+        display: ${props => 
+            props.theme.mode === 'dark' ? 'none' : 'block'};
+    }
+    #Shockpit {
+        display: ${props => 
+            props.theme.mode === 'dark' ? 'block' : 'none'};
+    }
+    #Asteroids_Game_Window {
+        display: ${props => 
+            props.theme.mode === 'dark' ? 'none' : 'block'};
+    }
+    #WarningSystem {
+        display: ${props => 
+            props.theme.mode === 'dark' ? 'block' : 'none'};
+    }
     };
 `
 
