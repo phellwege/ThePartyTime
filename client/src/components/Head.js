@@ -209,6 +209,10 @@ const GlobalStyle = createGlobalStyle`
         display: ${props => 
             props.theme.mode === 'dark' ? 'block' : 'none'};
     }
+    #Police {
+        display: ${props => 
+            props.theme.mode === 'dark' ? 'block' : 'none'};
+    }
     };
 `
 

@@ -1,7 +1,7 @@
 #headspace {
     display: flex;
     justify-content: space-between;
-    margin: 1.5%;
+    margin: .5%;
     align-content: center;
     height: 100px;
     width: 95%;

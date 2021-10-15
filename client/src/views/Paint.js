@@ -1,8 +1,13 @@
 import "../Events.css";
 import {Link} from '@reach/router';
+import Police from '../static/Po.gif'
 import Head from '../components/Head';
 import '../Main.css';
 import Footer from "../components/Footer";
+
+const FreezeSucka = () => {
+    alert(`Whoa there, what are you doin' in the park after dark? Get outta here!`)
+};
 
 function componentDidMount() {
         var canvas = document.getElementById('Art_Canvas');
@@ -36,6 +41,10 @@ const Paint = () => {
                         <li>the other</li>
                     </ul>
                 </div>
+                
+            </div>
+            <div id="Police">
+                <img src={Police} alt="Police" onClick={FreezeSucka}/>
             </div>
             <Footer/>
         </div>

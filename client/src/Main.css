@@ -311,3 +311,13 @@
     width: 25%;
     cursor: pointer;
 }
+#Police {
+    position: absolute;
+    width: 90%;
+    margin: -25% 0 0 10%;
+}
+#Police img{
+    height: 25%;
+    width: 25%;
+    cursor: pointer;
+}
