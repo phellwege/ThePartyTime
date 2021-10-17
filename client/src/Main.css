@@ -294,13 +294,14 @@
     justify-content: space-around;
     margin: -6% 0 0 0;
 }
-#Moving_Panel img{
-    background-image: url('./static/MovingPanelDay.gif');
+#Moving_Panel{
+    display: flex;
+    overflow: hidden;
+}
+#Moving_Panel img {
     width: 300vw;
-    height: 35vh;
-    background-Position: fixed;
-    background-Repeat: no-repeat;
-    z-index: -449;
+    position: absolute;
+    z-index: 0;
     bottom: 0;
 }
 #angry_jan {

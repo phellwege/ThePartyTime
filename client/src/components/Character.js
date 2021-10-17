@@ -2,6 +2,7 @@ import React from 'react';
 import AlienFWD from '../static/AlienFWD.gif';
 import AlienRight from '../static/AlienRight.gif';
 import AlienLeft from '../static/AlienLeft.gif';
+import MovingPanel from '../static/MovingPanelDay.gif';
 import "../Main.css";
 
 const Character = () => {
@@ -20,6 +21,7 @@ const CharPhrase = () => {
         
         </div>
         {/* <div id="Moving_Panel">
+            <img src={MovingPanel} alt="Moving Panel" id="DayPanel"/>
         </div> */}
             </>
     )

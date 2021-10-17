@@ -1,7 +1,6 @@
 import "../Events.css";
 import {Link} from '@reach/router';
 import Head from '../components/Head';
-import Footer from '../components/Footer';
 import Cockpit from '../static/Cockpit.gif';
 import Shockpit from '../static/Shockpit.gif';
 
@@ -30,7 +29,6 @@ const Asteroids = () => {
                 <img src={Shockpit} alt="Malfunctioning cockpit" id="Shockpit" onClick={Bzzzt}/>
             </div>
         </div>
-        <Footer/>
         </>
     )
 }

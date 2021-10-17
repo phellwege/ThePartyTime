@@ -5,6 +5,7 @@ import Head from '../components/Head';
 import '../Main.css';
 import Footer from "../components/Footer";
 
+
 const FreezeSucka = () => {
     alert(`Whoa there, what are you doin' in the park after dark? Get outta here!`)
 };
