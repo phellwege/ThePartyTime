@@ -89,9 +89,9 @@
 #Controller_interface {
     z-index: 1;
 }
-#scrolling_text {
+/* #scrolling_text {
     width: 150%;
-}
+} */
 #Screen {
     border: 1px solid black;
     width: 70%;
