@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ThePartyTime/static/css/main.1588384f.chunk.css",
+    "main.js": "/ThePartyTime/static/js/main.16183516.chunk.js",
+    "main.js.map": "/ThePartyTime/static/js/main.16183516.chunk.js.map",
+    "runtime-main.js": "/ThePartyTime/static/js/runtime-main.14aed84a.js",
+    "runtime-main.js.map": "/ThePartyTime/static/js/runtime-main.14aed84a.js.map",
+    "static/js/2.65720cd1.chunk.js": "/ThePartyTime/static/js/2.65720cd1.chunk.js",
+    "static/js/2.65720cd1.chunk.js.map": "/ThePartyTime/static/js/2.65720cd1.chunk.js.map",
+    "static/js/3.4925aade.chunk.js": "/ThePartyTime/static/js/3.4925aade.chunk.js",
+    "static/js/3.4925aade.chunk.js.map": "/ThePartyTime/static/js/3.4925aade.chunk.js.map",
+    "index.html": "/ThePartyTime/index.html",
+    "static/css/main.1588384f.chunk.css.map": "/ThePartyTime/static/css/main.1588384f.chunk.css.map",
+    "static/js/2.65720cd1.chunk.js.LICENSE.txt": "/ThePartyTime/static/js/2.65720cd1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.14aed84a.js",
+    "static/js/2.65720cd1.chunk.js",
+    "static/css/main.1588384f.chunk.css",
+    "static/js/main.16183516.chunk.js"
+  ]
+}

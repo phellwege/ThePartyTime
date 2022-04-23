@@ -24,13 +24,13 @@ const Rules = () => {
                 <td>Music</td>
             </tr>
             <tr>
-                <td>Asteroids</td>
-                <td>Movies</td>
+                <td>Day event</td>
+                <td>Movie</td>
             </tr>
-            {/* <tr>
+            <tr>
                 <td>Day event</td>
                 <td>Night</td>
-            </tr> */}
+            </tr>
 
         </table>
         </>

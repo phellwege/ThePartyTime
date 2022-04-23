@@ -6,13 +6,15 @@ const Footer = () => {
         <>
         <footer id="foot_wrap">
                 <div id="footer_links">
-                    <Link to="/">Home</Link>
-                    <Link to="/Rules">Rules</Link>
+                    <a href={"#Home"}>Home</a>
+                    <a href ="#Stuff">Stuff</a>
+                    <a href="#Stuff">Stuff</a>
+                    <a href="#Stuff">Stuff</a>
                 </div>
-                <div id="footer_links">
-                    <Link to="/TaC">
-                        Terms and Conditions
-                    </Link>
+                <div>
+                    <a href="https://github.com/">
+                        Git
+                    </a>
                 </div>
         </footer>
         </>
