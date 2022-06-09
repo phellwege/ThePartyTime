@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Router } from '@reach/router';
+import {Route, Routes } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
 import Main from './views/Main';
 import Rules from './views/Rules'
@@ -12,10 +12,10 @@ function App() {
     <ThemeProvider theme={theme}>
     <div className="App">
       <React.Fragment>
-          <Router>
-            <Main path="/"/>
-            <Rules path="/Rules"/>
-          </Router>
+          <Routes>
+            <Route exact path="/" element={<Main/>}/>
+            <Route exact path="/Rules" element={<Rules/>}/>
+          </Routes>
       </React.Fragment>
     </div>
     </ThemeProvider>

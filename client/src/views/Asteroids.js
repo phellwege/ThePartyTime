@@ -1,5 +1,4 @@
 import "../Events.css";
-import {Link} from '@reach/router';
 import Head from '../components/Head';
 import Cockpit from '../static/Cockpit.gif';
 import Shockpit from '../static/Shockpit.gif';

@@ -1,5 +1,4 @@
 import "../Events.css";
-import {Link} from '@reach/router';
 import Police from '../static/Po.gif'
 import Head from '../components/Head';
 import '../Main.css';
